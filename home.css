@@ -153,7 +153,9 @@ box-shadow: 1px 1px 15px white;
     font-size: 2em;
     color: black;
 }
-
+.tage{
+    display: none;
+}
 
 @media only screen and (max-width: 640px){
 
@@ -168,6 +170,19 @@ box-shadow: 1px 1px 15px white;
     border-radius: 20px;
     box-shadow: 1px 1px 15px white;
     }
-
-
+    .home1{
+        background: black;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+.left{
+   display: none;
+}
+.tage{
+    display: block;
+}
 }
